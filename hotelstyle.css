@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.7em;
+  background-color: #c1c1c1;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+p {
+  margin: 10px 0;
+}
+/*used every time*/
+.container {
+  margin: auto;
+  max-width: 90%;
+  overflow: auto;
+}
+.text-primary {
+  color: #49a;
+}
+.lead {
+  font-size: 23px;
+  letter-spacing: 1.4px;
+}
+.lead1 {
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 1.4px;
+}
+.clr {
+  clear: both;
+}
+#bg-color {
+  background-color: #49a;
+}
+#bg-gray {
+  background-color: #333;
+}
+#color-white {
+  color: #ffffff;
+}
+#black {
+  color: #333;
+}
+#margin {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+/*navbar-------------*/
+#navbar {
+  background: #333333e8;
+  color: aliceblue;
+  overflow: auto;
+  /* position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;*/
+}
+
+#navbar a {
+  color: aliceblue;
+}
+#navbar .logo {
+  float: left;
+  font-weight: 900;
+  padding-top: 20px;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #444;
+  color: #49a;
+}
+#showcase {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/hotelout.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+#showcase,
+.showcase-content {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 100px;
+}
+#showcase,
+.showcase-content h1 {
+  font-size: 25px;
+  line-height: 1.6em;
+}
+.btn {
+  color: #444;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #ffffff;
+  border: none;
+  margin-top: 20px;
+}
+.btn:hover {
+  color: #ccc;
+  background-color: #444;
+}
+.picture1 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/view.jpg") no-repeat center center/cover;
+  height: 450px;
+  float: left;
+  width: 50%;
+}
+.paragraph1 {
+  padding: 100px 50px;
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+.picture2 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/freespace.jpg") no-repeat center center/cover;
+  height: 450px;
+  float: right;
+  width: 50%;
+}
+.paragraph2 {
+  padding: 100px 50px;
+  text-align: center;
+  width: 50%;
+}
+.picture3 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/bestview.jpg") no-repeat center center/cover;
+  height: 450px;
+  float: left;
+  width: 50%;
+}
+.paragraph3 {
+  padding: 100px 50px;
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
+.picture4 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/manager.jpg") no-repeat center center/cover;
+  height: 250px;
+  width: 60%;
+  border-radius: 230px;
+  margin: auto;
+}
+.picture5 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/headcheif.jpg") no-repeat center center/cover;
+  height: 250px;
+  width: 60%;
+  border-radius: 230px;
+  margin: auto;
+}
+.picture6 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/customersevirce.jpg") no-repeat center center/cover;
+  height: 250px;
+  width: 60%;
+  border-radius: 230px;
+  margin: auto;
+}
+.picture7 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/salesmanager.jpg") no-repeat center center/cover;
+  height: 250px;
+  width: 60%;
+  border-radius: 230px;
+  margin: auto;
+}
+.picture8 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/topcheif.jpg") no-repeat center center/cover;
+  height: 250px;
+  width: 60%;
+  border-radius: 230px;
+  margin: auto;
+}
+.picture9 {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../benwed/images/waiter.jpg") no-repeat center center/cover;
+  height: 250px;
+  width: 60%;
+  border-radius: 230px;
+  margin: -14px auto;
+}
+.box {
+  float: left;
+  width: 33.3333333%;
+  padding: 10px;
+  text-align: center;
+}
+/*about*/
+.text-paragraph {
+  width: 60%;
+  float: left;
+}
+.text-paragraph p {
+  width: 90%;
+  text-align: center;
+}
+.picture10 {
+  background: url("../benwed/images/hotelout.jpg") no-repeat center center/cover;
+  width: 40%;
+  border-radius: 100px;
+  float: right;
+  height: 250px;
+}
+.pic {
+  margin-top: 70px;
+  width: 50%;
+  height: 900px;
+  float: left;
+}
+.picture11 {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0, 0.2)),
+    url("../benwed/images/hotelout.jpg") no-repeat center center/cover;
+  height: 300px;
+  width: 35%;
+  float: left;
+}
+.picture12 {
+  background: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0, 0.2)),
+    url("../benwed/images/view.jpg") no-repeat center center/cover;
+  height: 300px;
+  width: 65%;
+  float: right;
+}
+.picture13 {
+  background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0, 0.2)),
+    url("../benwed/images/bestview.jpg") no-repeat center center/cover;
+  height: 300px;
+  width: 70%;
+  float: left;
+}
+.picture14 {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0.2)),
+    url("../benwed/images/customersevirce.jpg") no-repeat center center/cover;
+  height: 300px;
+  width: 30%;
+  float: right;
+}
+.picture15 {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0, 0.2)),
+    url("../benwed/images/topcheif.jpg") no-repeat center center/cover;
+  height: 300px;
+  width: 40%;
+  float: left;
+}
+.picture16 {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0.2)),
+    url("../benwed/images/freespace.jpg") no-repeat center center/cover;
+  height: 300px;
+  width: 60%;
+  float: right;
+}
+.information {
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+/*booking*/
+.showcase-container2 {
+  background: linear-gradient(to right, #00000070 50%, rgb(0, 0, 0, 0.8) 50%),
+    url("../benwed/images/view.jpg") no-repeat center center/cover;
+  height: 900px;
+  margin-bottom: 0px;
+}
+form {
+  line-height: 1.8;
+}
+a {
+  text-decoration: none;
+}
+#container {
+  margin: 30px auto;
+  width: 80%;
+}
+.form-wrap {
+  background: #f0f0f0;
+  padding: 15px 25px;
+  color: #333;
+}
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+.form-wrap .form-group {
+  margin-top: 15px;
+}
+.form-wrap .form-group label {
+  display: block;
+  color: #666;
+}
+.form-wrap .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: #bfbfbf 1px solid;
+  border-radius: 10px;
+}
+#textarea {
+  width: 100%;
+  padding: 10px;
+  border: #bfbfbf 1px solid;
+  border-radius: 10px;
+}
+.form-wrap button {
+  background: #49c1a4;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.form-wrap button:hover {
+  background-color: #37a08e;
+}
+.form-wrap .bottom text {
+  font-size: 13px;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  color: #f0f0f0;
+}
+footer a {
+  color: #37a08e;
+}
+.signup {
+  width: 50%;
+  float: right;
+}
+/*footer*/
+.last {
+  background: #444;
+}
+.box-footer {
+  float: left;
+  width: 33.33333333%;
+}

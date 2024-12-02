@@ -1,0 +1,84 @@
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+#navbar ul li a {
+  padding: 10px;
+}
+#showcase {
+  height: 90vh;
+}
+.picture1 {
+  float: none;
+  width: 100vw;
+}
+.paragraph1 {
+  float: none;
+  width: 100vw;
+  padding: 50px 20px;
+}
+.picture2 {
+  float: none;
+  width: 100vw;
+}
+.paragraph2 {
+  float: none;
+  width: 100vw;
+  padding: 50px 20px;
+}
+.picture3 {
+  float: none;
+  width: 100vw;
+}
+.paragraph3 {
+  float: none;
+  width: 100vw;
+  padding: 50px 20px;
+}
+.box {
+  display: none;
+  width: 50%;
+}
+
+.picture10 {
+  float: none;
+  width: 100%;
+}
+.text-paragraph {
+  width: 100%;
+  padding-top: 2rem;
+}
+.pic {
+  float: none;
+  width: 100%;
+}
+.information {
+  float: none;
+  width: 100%;
+}
+#media-q1 {
+  height: 210px;
+}
+form {
+  line-height: 1.2;
+}
+.signup {
+  width: 100%;
+  float: none;
+  padding-top: 2rem;
+}
+.form-wrap .bottom text {
+  margin-top: 5px;
+}
+.form-wrap button {
+  margin-top: 10px;
+}
+#showcase,
+.showcase-content h1 {
+  font-size: 20px;
+  line-height: 1.5em;
+}
